@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_helmet"
+    },
+    "cases": [
+      {
+        "when": "chlorophyte_helmet",
+        "model": {
+          "type": "model",
+          "model": "item/chlorophyte_helmet"
+        }
+      }
+    ]
+  }
+}
