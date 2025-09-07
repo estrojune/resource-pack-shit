@@ -13,6 +13,13 @@
           "type": "model",
           "model": "item/chlorophyte_helmet"
         }
+      },
+      {
+        "when": "test",
+        "model": {
+          "type": "model",
+          "model": "item/diamond_sword"
+        }
       }
     ]
   }
